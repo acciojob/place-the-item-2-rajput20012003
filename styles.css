@@ -1,2 +1,13 @@
+/* styles.css */
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next row */
+  justify-content: center; /* Centers items in the row */
+}
 
-/* Your CSS Code here. */
+.item {
+  background-color: lightblue;
+  border: 1px solid #000;
+  margin: 5px; /* Adjust margin as needed */
+  padding: 10px; /* Adjust padding as needed */
+}
